@@ -1,4 +1,4 @@
-module github.com/golibs-starter/golib-message-bus
+module github.com/hari-92/golib-message-bus
 
 go 1.24.0
 

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/core"
 )
 
 // HandleMessage handle message

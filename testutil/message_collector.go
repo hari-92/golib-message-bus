@@ -3,7 +3,7 @@ package golibmsgTestUtil
 import (
 	"sync"
 
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/core"
 )
 
 type MessageCollector struct {

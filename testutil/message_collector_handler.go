@@ -1,8 +1,8 @@
 package golibmsgTestUtil
 
 import (
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"github.com/golibs-starter/golib/log"
+	"github.com/hari-92/golib-message-bus/kafka/core"
 )
 
 type MessageCollectorHandler struct {

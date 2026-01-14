@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/golibs-starter/golib-message-bus"
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"github.com/golibs-starter/golib-message-bus/kafka/properties"
+	"github.com/hari-92/golib-message-bus"
+	"github.com/hari-92/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/properties"
 	"go.uber.org/fx"
 )
 

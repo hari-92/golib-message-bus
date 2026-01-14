@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"github.com/golibs-starter/golib-message-bus/kafka/log"
 	"github.com/golibs-starter/golib/event"
 	coreLog "github.com/golibs-starter/golib/log"
+	"github.com/hari-92/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/log"
 )
 
 func AsyncProducerSuccessLogHandler(producer core.AsyncProducer, eventProps *event.Properties) {

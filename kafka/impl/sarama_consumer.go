@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/IBM/sarama"
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"github.com/golibs-starter/golib-message-bus/kafka/properties"
 	"github.com/golibs-starter/golib/log"
 	coreUtils "github.com/golibs-starter/golib/utils"
+	"github.com/hari-92/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/properties"
 	"github.com/pkg/errors"
 )
 

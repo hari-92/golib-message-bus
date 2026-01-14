@@ -2,7 +2,7 @@ package impl
 
 import (
 	"github.com/IBM/sarama"
-	"github.com/golibs-starter/golib-message-bus/kafka/properties"
+	"github.com/hari-92/golib-message-bus/kafka/properties"
 	"github.com/pkg/errors"
 )
 

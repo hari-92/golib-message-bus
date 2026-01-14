@@ -1,8 +1,8 @@
 package properties
 
 import (
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"github.com/golibs-starter/golib/config"
+	"github.com/hari-92/golib-message-bus/kafka/core"
 )
 
 func NewTopicAdmin(loader config.Loader) (*TopicAdmin, error) {

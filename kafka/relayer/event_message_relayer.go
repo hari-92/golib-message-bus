@@ -3,12 +3,12 @@ package relayer
 import (
 	"strings"
 
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"github.com/golibs-starter/golib-message-bus/kafka/log"
-	"github.com/golibs-starter/golib-message-bus/kafka/properties"
 	"github.com/golibs-starter/golib/event"
 	coreLog "github.com/golibs-starter/golib/log"
 	"github.com/golibs-starter/golib/pubsub"
+	"github.com/hari-92/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/log"
+	"github.com/hari-92/golib-message-bus/kafka/properties"
 )
 
 type EventMessageRelayer struct {

@@ -12,7 +12,7 @@ Base setup, see [GoLib Instruction](https://github.com/golibs-starter/golib#read
 Both `go get` and `go mod` are supported.
 
 ```shell
-go get github.com/golibs-starter/golib-message-bus
+go get github.com/hari-92/golib-message-bus
 ```
 
 ### Usage
@@ -23,9 +23,9 @@ Using `fx.Option` to include dependencies for injection.
 package main
 
 import (
-	"github.com/golibs-starter/golib-message-bus"
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"github.com/golibs-starter/golib-message-bus/testutil"
+	"github.com/hari-92/golib-message-bus"
+	"github.com/hari-92/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/testutil"
 	"go.uber.org/fx"
 )
 

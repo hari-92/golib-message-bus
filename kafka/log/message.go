@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	kafkaConstant "github.com/golibs-starter/golib-message-bus/kafka/constant"
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
+	kafkaConstant "github.com/hari-92/golib-message-bus/kafka/constant"
+	"github.com/hari-92/golib-message-bus/kafka/core"
 )
 
 func DescMessage(msg *core.Message, notLogPayloadForEvents []string) string {

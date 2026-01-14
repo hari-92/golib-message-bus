@@ -4,9 +4,9 @@ import (
 	"crypto/tls"
 
 	"github.com/IBM/sarama"
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"github.com/golibs-starter/golib-message-bus/kafka/properties"
-	"github.com/golibs-starter/golib-message-bus/kafka/utils"
+	"github.com/hari-92/golib-message-bus/kafka/core"
+	"github.com/hari-92/golib-message-bus/kafka/properties"
+	"github.com/hari-92/golib-message-bus/kafka/utils"
 	"github.com/pkg/errors"
 )
 
