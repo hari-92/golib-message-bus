@@ -2,9 +2,10 @@ package log
 
 import (
 	"fmt"
+	"strings"
+
 	kafkaConstant "github.com/golibs-starter/golib-message-bus/kafka/constant"
 	"github.com/golibs-starter/golib-message-bus/kafka/core"
-	"strings"
 )
 
 func DescMessage(msg *core.Message, notLogPayloadForEvents []string) string {

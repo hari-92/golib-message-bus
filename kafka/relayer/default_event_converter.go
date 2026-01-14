@@ -3,6 +3,8 @@ package relayer
 import (
 	"context"
 	"encoding/json"
+	"strings"
+
 	kafkaConstant "github.com/golibs-starter/golib-message-bus/kafka/constant"
 	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"github.com/golibs-starter/golib-message-bus/kafka/properties"
@@ -12,7 +14,6 @@ import (
 	webEvent "github.com/golibs-starter/golib/web/event"
 	webLog "github.com/golibs-starter/golib/web/log"
 	"github.com/pkg/errors"
-	"strings"
 )
 
 type DefaultEventConverter struct {

@@ -2,9 +2,10 @@ package golibmsgTestUtil
 
 import (
 	"fmt"
-	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"strings"
 	"time"
+
+	"github.com/golibs-starter/golib-message-bus/kafka/core"
 )
 
 // HandleMessage handle message

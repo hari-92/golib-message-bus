@@ -3,6 +3,8 @@ package relayer
 import (
 	"context"
 	"encoding/json"
+	"testing"
+
 	kafkaConstant "github.com/golibs-starter/golib-message-bus/kafka/constant"
 	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"github.com/golibs-starter/golib-message-bus/kafka/properties"
@@ -13,7 +15,6 @@ import (
 	webEvent "github.com/golibs-starter/golib/web/event"
 	webLog "github.com/golibs-starter/golib/web/log"
 	assert "github.com/stretchr/testify/require"
-	"testing"
 )
 
 type TestProducer struct {

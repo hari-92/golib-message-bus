@@ -1,12 +1,13 @@
 package golibmsgTestUtil
 
 import (
+	"reflect"
+	"strings"
+
 	"github.com/golibs-starter/golib-message-bus"
 	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"github.com/golibs-starter/golib-message-bus/kafka/properties"
 	"go.uber.org/fx"
-	"reflect"
-	"strings"
 )
 
 var consumerMap map[string]core.ConsumerHandler

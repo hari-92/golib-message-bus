@@ -2,13 +2,14 @@ package impl
 
 import (
 	"context"
+	"strings"
+	"sync"
+
 	"github.com/golibs-starter/golib-message-bus/kafka/core"
 	"github.com/golibs-starter/golib-message-bus/kafka/properties"
 	"github.com/golibs-starter/golib/log"
 	coreUtils "github.com/golibs-starter/golib/utils"
 	"github.com/pkg/errors"
-	"strings"
-	"sync"
 )
 
 type SaramaConsumers struct {
